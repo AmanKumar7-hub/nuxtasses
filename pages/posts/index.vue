@@ -1,7 +1,5 @@
 <template>
   <header>
-    
   </header>
-  <NuxtPage/>
-  
+  <postCard/>
 </template>
