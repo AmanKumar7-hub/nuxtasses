@@ -19,8 +19,11 @@ export const usePostStore = defineStore('posts',{
                 catch(error){
                     this.error = "Failed to Fetch Data"
                 }
+                finally{
+                    this.loading = false
+                }
             }
-        
+
     }
     
     
